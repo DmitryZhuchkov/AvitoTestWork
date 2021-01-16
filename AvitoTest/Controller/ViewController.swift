@@ -39,6 +39,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
      }()
     override func viewDidLoad() {
         super.viewDidLoad()
+        overrideUserInterfaceStyle = .light
         // MARK: Button constraints
         view.addSubview(Choice)
         Choice.bottomAnchor.constraint(equalTo: view.bottomAnchor,constant: -30).isActive = true
