@@ -70,7 +70,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         view.addSubview(closeButton)
         closeButton.topAnchor.constraint(equalTo: view.topAnchor,constant:60).isActive = true
         closeButton.bottomAnchor.constraint(equalTo: TopLabel.topAnchor,constant: -10).isActive = true
-        closeButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -300).isActive = true
         closeButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
